@@ -217,16 +217,22 @@ input[type=submit] {
   border: 0 none;
 }
 
-@media screen and (max-width: 980px){
-  *{
-    color:blue;
+@media screen and (min-width: 769px){
+  nav{
+    margin-right: 5%;
+  }
+  #main-container { /* 769~ - 1032 portfolio one col, fix */
+    width: 66%;
+    min-width: 680px;
   }
 }
 
 @media screen and (max-width: 768px){
-  *{
-    color:green;
+  nav{
+    margin-right: 5%;
   }
+
+
 }
 
 @media screen and (max-width: 640px){
@@ -240,12 +246,7 @@ input[type=submit] {
     background: #ffffff;
     border-bottom: 2px solid #cccccc;
   }
-  /* *{
-    color:yellow;
-  } */
-  /* #xnavbar{
-    color:yellow;
-  } */
+ 
 
   #logo {
     width: 100%;
@@ -276,6 +277,5 @@ input[type=submit] {
     text-decoration: none;
     border-left: 1px solid #efefef;
 
-    /* border: 1px black solid; */
   }
 }
